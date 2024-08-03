@@ -34,6 +34,7 @@ BODY -> ROW -> JSON
     "content": "수정할내용."  
 }  
   
-# 채용공고 삭제하기
-요청타입: DELETE
-요청URL : http://localhost:8000/api/Recruitment-Notice/{채용공고ID}
+# 채용공고 삭제하기  
+요청타입: DELETE  
+요청URL : http://localhost:8000/api/Recruitment-Notice/{채용공고ID}  
+  
