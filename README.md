@@ -7,7 +7,7 @@ http://127.0.0.1:8000/api/Recruitment-Notice/
 # 채용공고 목록 상세보기  
 http://127.0.0.1:8000/api/Recruitment-Notice/{채용공고ID}  
   
-포스트맨을 사용하여 요청 테스트  
+# 포스트맨을 사용하여 요청 테스트  
   
 # 채용공고 등록하기  
 요청타입: POST  
