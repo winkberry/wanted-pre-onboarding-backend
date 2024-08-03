@@ -1,14 +1,14 @@
 # wanted-pre-onboarding-backend
 원티드 프리온보딩 백엔드
 
-채용공고 목록 보기
-http://127.0.0.1:8000/api/Recruitment-Notice/
+채용공고 목록 보기  
+http://127.0.0.1:8000/api/Recruitment-Notice/  
 
-채용공고 목록 상세보기
-http://127.0.0.1:8000/api/Recruitment-Notice/{채용공고ID}
-
-포스트맨을 사용하여 요청 테스트
-
+채용공고 목록 상세보기  
+http://127.0.0.1:8000/api/Recruitment-Notice/{채용공고ID}  
+  
+포스트맨을 사용하여 요청 테스트  
+  
 # 채용공고 등록하기  
 요청타입: POST  
 요청URL : http://localhost:8000/api/Recruitment-Notice/  
