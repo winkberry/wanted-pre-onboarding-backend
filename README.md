@@ -9,7 +9,7 @@ http://127.0.0.1:8000/api/Recruitment-Notice/{채용공고ID}
 
 포스트맨을 사용하여 요청 테스트
 
-1. 채용공고 등록하기
+# 채용공고 등록하기
 요청타입: POST
 요청URL : http://localhost:8000/api/Recruitment-Notice/
 HEADER : Content-Type을 application/json으로 설정
@@ -22,7 +22,7 @@ BODY -> ROW -> JSON
     "content": "00회사에서 백엔드 시니어 개발자를 채용합니다."
 }
 
-2. 채용공고 수정하기
+# 채용공고 수정하기
 요청타입: PUT
 요청URL : http://localhost:8000/api/Recruitment-Notice/{채용공고ID}
 BODY -> ROW -> JSON
@@ -34,6 +34,6 @@ BODY -> ROW -> JSON
     "content": "수정할내용."
 }
 
-3. 채용공고 삭제하기
+# 채용공고 삭제하기
 요청타입: DELETE
 요청URL : http://localhost:8000/api/Recruitment-Notice/{채용공고ID}
