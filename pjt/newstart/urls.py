@@ -8,6 +8,7 @@ router.register(r'companies', CompanyViewSet)
 router.register(r'applicants', ApplicantViewSet)
 
 urlpatterns = [
-    path('api/', include(router.urls)),
+    path('api/', include(router.urls)), 
+    # 채용공고 검색 url
     path('search/Recruitment-Notice/', RecruitmentNoticeSearchView.as_view(), name='recruitment-notice-search'),
 ]
