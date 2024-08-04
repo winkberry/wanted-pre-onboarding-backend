@@ -39,7 +39,7 @@ BODY -> ROW -> JSON
 요청타입: DELETE  
 요청URL : http://localhost:8000/api/Recruitment-Notice/{채용공고ID}  
 
-## 채용공고 검색하기  
+## 채용공고 검색하기 (선택사항)
 요청타입 : GET  
 요청URL : http://localhost:8000/api/search/Recruitment-Notice/?company_name={회사이름}&position={포지션}&company_country={국가}&company_region={지역}&compensation={금액}&technologies={사용기술}
 * 공백이 삽입되어 있을 경우 공백에 '%20'를 삽입하면 됩니다. 
