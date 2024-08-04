@@ -38,4 +38,8 @@ BODY -> ROW -> JSON
 ## 채용공고 삭제하기  
 요청타입: DELETE  
 요청URL : http://localhost:8000/api/Recruitment-Notice/{채용공고ID}  
+
+## 채용공고 검색하기  
+요청타입 : GET  
+요청URL : http://localhost:8000/api/search/Recruitment-Notice/?company_name={회사이름}&position={포지션}  
   
