@@ -6,41 +6,37 @@
 
 ## 채용공고 목록 보기  
 http://127.0.0.1:8000/api/Recruitment-Notice/  
+반환값 :  
+![My Image](https://github.com/winkberry/등록완료후목록.png)
 
 ## 채용공고 목록 상세보기  
-http://127.0.0.1:8000/api/Recruitment-Notice/{채용공고ID}  
+http://127.0.0.1:8000/api/Recruitment-Notice/{채용공고ID}
   
 ## 채용공고 등록하기  
 요청타입: POST  
 요청URL : http://localhost:8000/api/Recruitment-Notice/  
 HEADER : Content-Type을 application/json으로 설정  
-BODY -> ROW -> JSON  
-{  
-    "company": 1,  
-    "position": "백엔드 시니어 개발자",  
-    "compensation": 3000000,  
-    "technologies": "PHP, apach",  
-    "content": "00회사에서 백엔드 시니어 개발자를 채용합니다."  
-}  
-  
+BODY -> ROW -> JSON       
+![My Image](https://github.com/winkberry/등록.png)
+
 ## 채용공고 수정하기  
 요청타입: PUT  
 요청URL : http://localhost:8000/api/Recruitment-Notice/{채용공고ID}  
 BODY -> ROW -> JSON  
-{  
-    "company": 1,  
-    "position": "수정할내용",  
-    "compensation": 수정할금액,  
-    "technologies": "수정할스택",  
-    "content": "수정할내용."  
-}  
+![My Image](https://github.com/winkberry/풋요청.png)  
+  
+반환값 :  
+![My Image](https://github.com/winkberry/풋성공.png)
   
 ## 채용공고 삭제하기  
 요청타입: DELETE  
 요청URL : http://localhost:8000/api/Recruitment-Notice/{채용공고ID}  
+반환값 :  
+![My Image](https://github.com/winkberry/딜리트완료후목록.png)  
 
 ## 채용공고 검색하기 (선택사항)
 요청타입 : GET  
 요청URL : http://localhost:8000/api/search/Recruitment-Notice/?company_name={회사이름}&position={포지션}&company_country={국가}&company_region={지역}&compensation={금액}&technologies={사용기술}
-* 공백이 삽입되어 있을 경우 공백에 '%20'를 삽입하면 됩니다. 
+* 공백이 삽입되어 있을 경우 공백에 '%20'를 삽입하면 됩니다.
   
+![My Image](https://github.com/winkberry/html로검색.png)    
