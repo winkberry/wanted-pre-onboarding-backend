@@ -7,7 +7,7 @@
 ## 채용공고 목록 보기  
 http://127.0.0.1:8000/api/Recruitment-Notice/  
 반환값 :  
-![My Image](https://github.com/winkberry/등록완료후목록.png)
+![My Image](https://github.com/winkberry/wanted-pre-onboarding-backend/등록완료후목록.png)
 
 ## 채용공고 목록 상세보기  
 http://127.0.0.1:8000/api/Recruitment-Notice/{채용공고ID}
