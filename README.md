@@ -7,11 +7,12 @@
 ## 채용공고 목록 보기  
 요청URL : http://127.0.0.1:8000/api/Recruitment-Notice/  
 반환값 :  
-<img src="https://github.com/winkberry/wanted-pre-onboarding-backend/blob/main/등록완료후목록.png" alt="설명" style="width:20%; height:auto;">
+<img src="https://github.com/winkberry/wanted-pre-onboarding-backend/blob/main/등록완료후목록.png" alt="설명" style="width:25%; height:auto;">
 
 ## 채용공고 목록 상세보기  
 요청URL : http://127.0.0.1:8000/api/Recruitment-Notice/{채용공고ID}  
-<img src="https://github.com/winkberry/wanted-pre-onboarding-backend/blob/main/풋성공.png" alt="설명" style="width:20%; height:auto;">
+반환값 :  
+<img src="https://github.com/winkberry/wanted-pre-onboarding-backend/blob/main/풋성공.png" alt="설명" style="width:25%; height:auto;">
   
 
 ## 채용공고 등록하기  
@@ -19,22 +20,22 @@
 요청URL : http://localhost:8000/api/Recruitment-Notice/  
 HEADER : Content-Type을 application/json으로 설정  
 BODY -> ROW -> JSON       
-<img src="https://github.com/winkberry/wanted-pre-onboarding-backend/blob/main/등록.png" alt="설명" style="width:20%; height:auto;">  
+<img src="https://github.com/winkberry/wanted-pre-onboarding-backend/blob/main/등록.png" alt="설명" style="width:25%; height:auto;">  
 
 ## 채용공고 수정하기  
 요청타입: PUT  
 요청URL : http://localhost:8000/api/Recruitment-Notice/{채용공고ID}  
 BODY -> ROW -> JSON  
-<img src="https://github.com/winkberry/wanted-pre-onboarding-backend/blob/main/풋요청.png" alt="설명" style="width:20%; height:auto;">
+<img src="https://github.com/winkberry/wanted-pre-onboarding-backend/blob/main/풋요청.png" alt="설명" style="width:25%; height:auto;">
   
 반환값 :  
-<img src="https://github.com/winkberry/wanted-pre-onboarding-backend/blob/main/풋성공.png" alt="설명" style="width:20%; height:auto;">  
+<img src="https://github.com/winkberry/wanted-pre-onboarding-backend/blob/main/풋성공.png" alt="설명" style="width:25%; height:auto;">  
   
 ## 채용공고 삭제하기  
 요청타입: DELETE  
 요청URL : http://localhost:8000/api/Recruitment-Notice/{채용공고ID}  
 반환값 :  
-<img src="https://github.com/winkberry/wanted-pre-onboarding-backend/blob/main/딜리트완료후목록.png" alt="설명" style="width:20%; height:auto;">  
+<img src="https://github.com/winkberry/wanted-pre-onboarding-backend/blob/main/딜리트완료후목록.png" alt="설명" style="width:25%; height:auto;">  
   
 
 ## 채용공고 검색하기 (선택사항)
