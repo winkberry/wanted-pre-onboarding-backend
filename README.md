@@ -35,8 +35,6 @@ BODY -> ROW -> JSON
 ## 채용공고 삭제하기  
 요청타입: DELETE  
 요청URL : http://localhost:8000/api/Recruitment-Notice/{채용공고ID}  
-반환값 :  
-<img src="https://github.com/winkberry/wanted-pre-onboarding-backend/blob/main/images/딜리트완료후목록.png" alt="설명" style="width:30%; height:auto;">  
   
 
 ## 채용공고 검색하기 (선택사항)
