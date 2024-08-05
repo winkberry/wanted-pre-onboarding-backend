@@ -1,6 +1,7 @@
 # wanted-pre-onboarding-backend
 원티드 프리온보딩 백엔드
-( python + django + DRF)
+## 사용기술  
+python + django + DRF  
 
 # 기업의 채용을 위한 웹 서비스
 
