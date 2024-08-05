@@ -6,12 +6,12 @@ python + django + DRF
 # 기업의 채용을 위한 웹 서비스
 
 ## 채용공고 목록 보기  
-요청URL : http://127.0.0.1:8000/api/Recruitment-Notice/  
+요청URL : http://localhost:8000/api/Recruitment-Notice/  
 반환값 :  
 <img src="https://github.com/winkberry/wanted-pre-onboarding-backend/blob/main/images/등록완료후목록.png" alt="설명" style="width:30%; height:auto;">
 
 ## 채용공고 목록 상세보기  
-요청URL : http://127.0.0.1:8000/api/Recruitment-Notice/{채용공고ID}  
+요청URL : http://localhost:8000/api/Recruitment-Notice/{채용공고ID}  
 반환값 :  
 <img src="https://github.com/winkberry/wanted-pre-onboarding-backend/blob/main/images/풋성공.png" alt="설명" style="width:30%; height:auto;">
   
